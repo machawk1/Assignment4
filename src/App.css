@@ -1,0 +1,42 @@
+body {
+  font-family: 'Times new Roman', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.shuffled-playlist {
+  max-width: 500px;
+  margin: auto;
+  background: #837b7b;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.player-Controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.playlist-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #eee;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.playlist-item:hover {
+  background-color: #ddd;
+}
+
+.status {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
